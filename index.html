@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="flex">
+        <main class="flex main-container">
+            <h1>Generate a <br><span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <button onclick="generatePwd()">Generate passwords</button>
+            <div class="separator"></div>
+            <div class="flex pwd-wrapper">
+                <p id="first-pwd" class="pwd-container"></p>
+                <p id="second-pwd" class="pwd-container"></p>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
